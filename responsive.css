@@ -1,0 +1,60 @@
+.hide {
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  .information,
+  .popular-tour,
+  .choose-cart {
+    flex-direction: column;
+  }
+
+  .choosing-section {
+    flex-direction: column;
+  }
+  .row-1,
+  .row-2,
+  .video-section {
+    grid-template-columns: 1fr;
+  }
+  .logo h3 {
+    font-size: 1.5rem;
+  }
+  .logo-btn {
+    display: block;
+  }
+  .logo-btn i {
+    font-size: 2rem;
+    color: gray;
+  }
+  .nav-item {
+    display: none;
+  }
+  .banner-tittle {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 3rem;
+    color: #ffffff;
+  }
+  .banner-description {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    margin: 2rem 0 3rem 0;
+  }
+  .popular-content {
+    width: 100%;
+    padding: 0 1.2rem;
+  }
+  .popular-img img {
+    width: 100%;
+  }
+  .img-content {
+    width: 100%;
+  }
+
+  .footer {
+    width: 100%;
+  }
+}
