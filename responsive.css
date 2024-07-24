@@ -1,12 +1,22 @@
 .hide {
   display: none;
 }
+.hide {
+  display: none;
+}
 
-@media screen and (max-width: 576px) {
+@media screen and (min-width: 576px) and (max-width: 992px) {
   .information,
   .popular-tour,
   .choose-cart {
     flex-direction: column;
+  }
+  body{
+    margin: 0 20px;
+  }
+  main > section{
+    margin: 3rem 0;
+
   }
 
   .choosing-section {
@@ -31,7 +41,7 @@
     display: none;
   }
   .banner-tittle {
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 700;
     line-height: 3rem;
     color: #ffffff;
@@ -50,11 +60,168 @@
   .popular-img img {
     width: 100%;
   }
-  .img-content {
+  .logo-flex{
     width: 100%;
   }
-
+  .img-content {
+    width: 90%;
+  }
+  .empty{
+    display: none;
+  }
+  .details{
+    width: 100%;
+    padding: 0;
+  }
+  .otbut-main{
+    width: 100%;
+  }
+  .video-section{
+    flex-direction: column;
+  }
+  .video-section{
+    width: 100%;
+    padding: 20px;
+    justify-content: center;
+  }
+  .input{
+    width: 100%;
+  }
+  .content{
+    width: 100%;
+  }
+  .tour{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .contact-btn{
+    margin-bottom: 2rem;
+  }
+  .own-section{
+    padding-top: 2rem;
+  }
+ 
   .footer {
     width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 576px) {
+  .information,
+  .popular-tour,
+  .choose-cart {
+    flex-direction: column;
+  }
+  body{
+    margin: 0 20px;
+  }
+  main > section{
+    margin: 3rem 0;
+
+  }
+
+  .choosing-section {
+    flex-direction: column;
+  }
+  .row-1,
+  .row-2,
+  .video-section {
+    grid-template-columns: 1fr;
+  }
+  .logo h3 {
+    font-size: 1.5rem;
+  }
+  .logo-btn {
+    display: block;
+  }
+  .logo-btn i {
+    font-size: 2rem;
+    color: gray;
+  }
+  .nav-item {
+    display: none;
+  }
+  .banner-tittle {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3rem;
+    color: #ffffff;
+  }
+  .banner-description {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    margin: 2rem 0 3rem 0;
+  }
+  .popular-content {
+    width: 100%;
+    padding: 0 1.2rem;
+  }
+  .popular-img img {
+    width: 100%;
+  }
+  .logo-flex{
+    width: 100%;
+  }
+  .img-content {
+    width: 90%;
+  }
+  .empty{
+    display: none;
+  }
+  .details{
+    width: 100%;
+    padding: 0;
+  }
+  .otbut-main{
+    width: 100%;
+  }
+  .video-section{
+    flex-direction: column;
+  }
+  .video-section{
+    width: 100%;
+    padding: 20px;
+    justify-content: center;
+  }
+  .input{
+    width: 200%;
+  }
+  .content{
+    width: 100%;
+  }
+  .photo img{
+    width: 100%;
+  }
+  .tour{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .contact-btn{
+    margin-bottom: 2rem;
+    width: 200%;
+  }
+  .own-section{
+    padding-top: 2rem;
+  }
+ 
+  .footer {
+    width: 100%;
+  }
+  /* <!-- Deals & Discount --> */
+  .deals-descount{
+    width: 100%;
+  }
+  .deals-content,.deals-content-1,.deals-content-2{
+    width: 100%;
+    padding: 2rem;
+  
+   
+  }
+  .deals-section{
+    flex-direction: column;
+    justify-content: center;
   }
 }
